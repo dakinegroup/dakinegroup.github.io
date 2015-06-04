@@ -33,7 +33,9 @@
       subhref: "/company/skills.html"
 - title: "Why Us"
   subcategories:
+     - subtitle: "Why Us"
+       subhref: "/company/whyus/index.html"   
      - subtitle: "Mission"
-       subhref: "/company/mission"
+       subhref: "/company/whyus/mission.html"
      - subtitle: "Values"
-       subhref: "/company/values"
+       subhref: "/company/whyus/values.html"
