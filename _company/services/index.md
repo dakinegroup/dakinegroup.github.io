@@ -19,3 +19,13 @@ In fast evolving services world, everyone wants to go online in providing and re
 DKT prefers use of open source solutions, if they can come close to the requirements. This helps to cut-down deployment costs and easy migration to new vendors and platforms.
 
 Differentiator: Capability to understand business need, transform it into backend, mobile front end and any integrations required with third party platforms.
+
+#Components developed
+* HealthApp2014
+* ComLiive
+* CricApp2015 (only frontend)
+* PlanningFunction (only frontend)
+* Custom ERP Solution - Excel based
+* LenDen - Give &amp; Take (only frontend)
+* Wordpress - Several blogs (acctpl.com, managingbypoems.com, ptpgpm.com)
+* Netucation

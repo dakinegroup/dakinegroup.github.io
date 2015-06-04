@@ -12,11 +12,13 @@ Knowledge Areas:
 * Automation - business workflows
 * Online Service Design
 * Remote Data Sensing / Collection / Analysis
+* Mobile Applications
 
 Pure Software Skills
 * Platforms: Linux
-* Languages: PHP, Javascript, Java, Perl, Python, Ruby, C/C++
+* Languages: PHP, Javascript, Java, Perl, Python, Ruby, C/C++, Objective-C
 * PHP Frameworks: CodeIgniter, Joomla, Wordpress, Drupal
+* Mobile Frameworks: PhoneGap, Ionic, Android and iOS native frameworks
 * Javascript Frameworks: NodeJs, AngularJs, RequireJs, ReactJs
 * Databases: MySQL, MongoDB
 * Test Automation: Karma, Jasmine, Selenium, JUnit
