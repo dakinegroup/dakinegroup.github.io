@@ -1,7 +1,14 @@
 - title: "Home"
   href: "/"
- 
-- title: "Services"
+- title: "Who are we?"
+  subcategories:
+    - subtitle: "Introduction"
+      subhref: "/company/team/index.html"
+    - subtitle: "Founder"
+      subhref: "/company/team/founder.html"
+    - subtitle: "Skills"
+      subhref: "/company/skills/index.html" 
+- title: "What We do.."
   subcategories:
     - subtitle: "Services"
       subhref: "/company/services/index.html"
@@ -11,7 +18,7 @@
       subhref: "/company/reusables/index.html"
     - subtitle: "Open Source"
       subhref: "/company/opensource/index.html"
-- title: "Process"
+- title: "Way we do"
   subcategories:
      - subtitle: "Processes"
        subhref: "/company/process/index.html"
@@ -25,14 +32,7 @@
        subhref: "/company/process/configmanagement.html"
      - subtitle: "Support"
        subhref: "/company/process/support.html"
-- title: "Who are we?"
-  subcategories:
-    - subtitle: "Introduction"
-      subhref: "/company/team/index.html"
-    - subtitle: "Founder"
-      subhref: "/company/team/founder.html"
-    - subtitle: "Skills"
-      subhref: "/company/skills/index.html"
+
 - title: "Why Us"
   subcategories:
      - subtitle: "Why Us"
@@ -41,3 +41,12 @@
        subhref: "/company/whyus/mission.html"
      - subtitle: "Values"
        subhref: "/company/whyus/values.html"
+       
+- title: "Blogs"
+  subcategories:
+     - subtitle: "Software"
+       subhref: "/_posts/software"
+     - subtitle: "Embedded"
+       subhref: "/_posts/embedded"
+     - subtitle: "Leadership"
+       subhref: "/_posts/leadership"
