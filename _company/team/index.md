@@ -5,8 +5,8 @@ title: da Kine Technologies Pvt. Ltd. - Team
 ---
 #Introduction
 
-We have highly committed team, small team. We operate from a small place in Gurgaon, almost 10x10 sq ft area with seating capacity of 4-5 people. We value engineering skills to solve problem rather than specialise in one area.
+da Kine Technologies was setup in 2010. It started with creation of a product in education domain, with content management, audio-video tools. Later team worked on several consulting assignments and helped many to get started with their automation initiatives.
 
-Team so far has been able to demonstrate their ability to deliver projects in different technology areas in software.
+We are small and highly productive team, with total of 30 person years of experience. We are in Gurgaon.
 
-We take up projects of 20 - 60 person months of size. We have most competitive pricing and agile work setup to adapt to evolving requirements of our customers.
+We have capacity to take up at most two projects of at least 20 person months. We have agile work setup to adapt to the unique requirements of our customers.
