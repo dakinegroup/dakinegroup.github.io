@@ -12,29 +12,41 @@ DKT offers software services to create end to end solutions for small and medium
 DKT takes up consulting assignments and partner with companies in their inhouse automation initiatives.
 
 Areas where we have worked using inhouse developed modules and freely available open source frameworks are:
+
 * Customer Relationship Management (CRM)
+
    * Payment and Receipt Tracking for customers
    * New User Registration, Service Delivery, Feedback, Useful Tools, Payments
    * Useful complex reports for Management Dashboard
    * Out of the box installation of SugarCRM
+
    Used: PHP, Javascript, AngularJS, MySQL, CodeIgniter, REST based APIs
+
 * Enterprise Resource Management (ERP)
+
    * Automate stores issue / receipt of materials
    * Automate Gross Marging for individual projects
    * Automate productivity tracking for man and machine resources
    * Automate indent, purchase requisition process
    * Defect management workflows
    * Control indirect expenses (vouchers / categorizing / loading on projects)
+
    Used: PHP, Excel VBA, AngularJS, CodeIgniter, MySQL, Joomla
+
 * Wordpress based blogs and small systems
+
    * Job portal
    * Shop - WooCommerce (reused here)
    * Communication Platform for college
+
 * Education Platforms
+
    * eFront, Moodle
    * BigBlueButton
    * Asterix
+
 * Solutions
+
     - Web based solutions
     - Mobile Apps with backend support
     - Stand-alone mobile apps
