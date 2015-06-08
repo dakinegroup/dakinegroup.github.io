@@ -4,12 +4,12 @@ overview: true
 title: da Kine Technologies Pvt. Ltd. - Services
 ---
 #Vineet Kumar Maheshwari
-Vineet Maheshwari, is an engineer, a manager, a process enthusiast, entrepreneur. He has corporate experience of 16+ years and 5 years of entrepreneurial journey. Learning new technologies with application interest is his passion.
+Vineet Maheshwari, is an engineer, a manager, a process enthusiast, entrepreneur. He has corporate experience of 16+ years and 5 years of entrepreneurial journey. Learning new technologies with an application interest is his passion. He is a great believer of investing time in automating and applying mind for creation, rather than repatedly doing same things and also making same mistakes. For him it is a mantra for transforming an organization and employees working there.
 
 
-Vineet is B.E. Electronics and Electical Communications from Punjab Engineering College, Chandigarh, passed out in 1994 with Honours. He did his MBA with major in marketing from M.D.I. Gurgaon in 2013, won Chairman's Gold Medal for highest CGPA. He has got his PMP certification in 2009. In 2010, he did Six Black Belt training.
+Vineet is B.E. Electronics and Electical Communications from Punjab Engineering College, Chandigarh, passed out in 1994 with Honours. He did his MBA with major in marketing from M.D.I. Gurgaon in 2013, won Chairman's Gold Medal for highest CGPA. He has got his PMP certification in 2009. In 2010, he did Six Black Belt training. Though, he has been an MBA (part of academic interest), he continues to be hands-on and engineer at heart when it comes to implementing and innovating.
 
-Vineet has worked on several challenging development projects of varied sizes. He won many awards for individual and team performance. He has deep interest in exploring situations to improve productivity, apply automation. He is hands-on with implementation, know many programming languages, tools and shares that knowledge with people around. 
+Vineet has worked on several challenging software/embedded development projects of varied sizes. He won many awards for individual and team performance. He has deep interest in exploring situations to improve productivity, apply automation. He is hands-on with implementation, know many programming languages, tools and shares that knowledge with people around. 
 
 He got an opportunity to present a paper in [PMI National Conference 2010](http://www.pmi.org.in/conference2010/agenda.asp#3). With a mission to solve problems of our lagging domestic industry compared to foreign corporates, he took plunge into starting new initiative, as da Kine Technologies Pvt. Ltd. 
 

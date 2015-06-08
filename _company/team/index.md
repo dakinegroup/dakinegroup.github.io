@@ -5,7 +5,9 @@ title: da Kine Technologies Pvt. Ltd. - Team
 ---
 #Introduction
 
-da Kine Technologies (DKT) was setup in 2010.
+da Kine Technologies (DKT), setup in 2010, since inception is into experimenting with new ideas, going into new areas and delivering solutions which have evolved from an abstract concept. Latest being embedded catering to IoT space. Solutions include using operations data sensing (like temperature, current, humidity, number of units) from remote areas to control systems centrally. 
+
+DKT believes, future belongs to Internet technologies. All solutions have to be woven around internet platforms and have to synergise. Just a point in case has been, the way Javascript language has got evolved in last few years. It has gone to an extent that it has become a language for Mobile App, Backend server, databases, embedded. And the Good news is we have fast adapted to this change.
 
 DKT offers software services to create end to end solutions for small and medium size organizations. We have the ability to work with organizations to capture the management workflow knowledge and transferring it into technology. These tailored solutions are highly suitable to cater to unique business requirements of SMEs. With our passion to deliver best, our agility and engineering processes we are able to create solutions that move an organization several steps ahead in productivity.
 
@@ -20,7 +22,7 @@ Areas where we have worked using inhouse developed modules and freely available 
    * Useful complex reports for Management Dashboard
    * Out of the box installation of SugarCRM
 
-   Used: PHP, Javascript, AngularJS, MySQL, CodeIgniter, REST based APIs
+   **Technologies**: PHP, Javascript, AngularJS, MySQL, CodeIgniter, REST based APIs
 
 * Enterprise Resource Management (ERP)
 
@@ -31,7 +33,7 @@ Areas where we have worked using inhouse developed modules and freely available 
    * Defect management workflows
    * Control indirect expenses (vouchers / categorizing / loading on projects)
 
-   Used: PHP, Excel VBA, AngularJS, CodeIgniter, MySQL, Joomla
+   **Technologies**: PHP, Excel VBA, AngularJS, CodeIgniter, MySQL, Joomla, Joomla
 
 * Wordpress based blogs and small systems
 
@@ -44,6 +46,13 @@ Areas where we have worked using inhouse developed modules and freely available 
    * eFront, Moodle
    * BigBlueButton
    * Asterix
+
+* Mobile Apps
+
+    - Cricet Apps for updates on 2015 world cup
+    - Planning function for organizing guests, budgets
+    - Len Den (Give and Take) for quick recording of gifts, donations
+    **Technologies**: PhoneGap, ionic, AngularJs, NodejS, MongoDB, Native Android/iOS
 
 * Solutions
 
