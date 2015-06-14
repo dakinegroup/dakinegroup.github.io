@@ -3,6 +3,177 @@ layout: default
 title: Home
 overview: true
 ---
+<style>
+#slider .slide-container {
+    height: 400px;
+}
+#slider .slide {
+    position: absolute;
+    top: 100px;left:50px;
+   visibility: hidden;
+   overflow: hidden;
+   opacity: 0;
+   width: 100%;
+  transition: opacity 2s linear;
+  -webkit-transition: opacity 2s linear;
+}
+
+#slider .slide.active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 2s linear;
+  -webkit-transition: opacity 2s linearr;
+}
+#slider .left, #slider .right {
+    cursor: pointer;
+    color: #d3d3d3;
+    font-size: 3em;
+    position: relative;
+    z-index: 10;
+}
+#slider .left {
+    left: 0%;
+    top: 200px;    
+}
+#slider .right {
+    right: -100%;
+    top: -260px;    
+}
+#slider .slide .slide-content {
+    height: 400px;
+    width: 100%;
+}
+#slider .bar {
+    border: 1px solid gray;
+    cursor: pointer;
+}
+#slider .bar.active {
+    background-color: gray;
+}
+</style>
+
+
+<script>
+$(document).ready(function(){
+    var activeSlide = 1;
+    var maxSlides = 5;
+    var slideNumber = "slide-" + activeSlide;
+    var slideTimer ;
+    $("#slider .slide#"+slideNumber).removeClass("active");
+     $("#slider .bar-"+activeSlide).removeClass("active");
+   $("#slider .slide#"+slideNumber).addClass("active");
+   $("#slider .bar-"+activeSlide).addClass("active");
+ 
+    Slide = {};
+     Slide.get = function(i) {
+            $("#slider #slide-"+activeSlide).removeClass("active");
+            $("#slider .bar-"+activeSlide).removeClass("active");
+            activeSlide = i;
+            if(activeSlide > 5) activeSlide = 1;
+            if(activeSlide < 1) activeSlide = 5;
+
+            $("#slider #slide-"+activeSlide).addClass("active");
+            $("#slider .bar.bar-"+activeSlide).addClass("active");  
+            if(typeof slideTimer != 'undefined') {
+                clearTimeout(slideTimer);
+                slideTimer = setTimeout(function(){
+                    Slide.getNext();
+                }, 5000);  
+            }
+     }
+     Slide.getNext = function() {
+        this.get(activeSlide+1);
+    }
+
+    $("#slider .right").click(function(){
+       Slide.getNext(); 
+    });
+    $("#slider .left").click(function(){
+                Slide.get(activeSlide-1);
+    });
+    $('#slider .bar').click(function(){
+        var i;
+        for(i=1; i <= maxSlides;i++) {
+            if($(this).hasClass("bar-"+i)) {
+                Slide.get(i);
+             break;
+            }
+        }
+    });
+    setTimeout(function(){
+        Slide.getNext();
+    }, 5000);
+})
+  
+</script>
+<section id='slider'>
+ <i class="fa fa-chevron-left left" style=""></i>
+ <div class="slide-container">
+<div  id="slide-1" class="row slide active">
+ <div class="slide-content"  >
+ <center>
+     <h3>da Kine Technologies</h3>
+     <div>Offering Technology Development Services</div>
+     <div>Embedded.Internet.Backend.</div>
+     <div>Valued partner for SMEs in their Process Automation Needs</div>
+ </center>
+ </div>
+ 
+</div>
+<div  id="slide-2" class="row slide ">
+ <div class="slide-content"  >
+ <center><h1>Developed</h1>
+ <div>Online Service Delivery Platforms</div>
+ <div>Embedded Education Projects, ATmega - 328, 89C51</div>
+ <div>Stores Management Solution</div>
+ <div>Profit and Loss - Project Wise </div>
+ <div>e-Governance Projects</div>
+ </center>
+ </div>
+</div>
+<div  id="slide-3" class="row slide ">
+<div class="slide-content"  >
+ <center><h1>Team</h1>
+ <div>Driven by performance</div>
+ <div>Driven by innovation</div>
+ <div>Driven by simplicity in solutions</div>
+ <div>Driven by doing at optimal costs, generating value for money</div>
+ <div>Driven by reuse to give quality, stable and lower cost solutions</div>
+ </center>
+ </div>
+</div>
+<div  id="slide-4" class="row slide ">
+<div class="slide-content"  >
+ <center><h1>Technologies</h1>
+ <div>Mobile Applications - Android, iOS</div>
+ <div>Angular Js, NodeJs, MongoDB</div>
+ <div>Java, Spring, Hibernate, Tomcat</div>
+ <div>PHP, CodeIgniter, Joomla</div>
+ <div>ATmega, 89C51</div>
+ <div>Adding soon.. AM335 - Android OS</div></center>
+ </div>
+</div>
+<div  id="slide-5" class="row slide ">
+ <div class="slide-content"  >
+ <center><h1>Contacts</h1>
+ <div>Reach out to us at:</div>
+   <div>e-mail: vineet@dakinegroup.com</div>
+   <div >phone: +91 9899799105</div>
+ 
+ </center>
+ </div>
+</div>
+</div>
+<i class="fa fa-chevron-right right"></i>
+<div class="row indicators">
+<div class="col-md-offset-1 col col-md-2 bar bar-1"><center>Offering</center></div>
+<i class="fa fa-chevron-right right" style=""></i>
+<div class="col col-md-2 bar bar-2"><center>Projects</center></div>
+<div class="col col-md-2 bar bar-3"><center>Team</center></div>
+<div class="col col-md-2 bar bar-4"><center>Technologies</center></div>
+<div class="col col-md-2 bar bar-5"><center>Contact</center></div>
+</div>
+</section>
 
 <section id='home'>
 <blockquote>The ability to adapt is essential for sustainability.
