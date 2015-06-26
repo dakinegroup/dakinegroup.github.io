@@ -8,10 +8,12 @@ da Kine Technologies (DKT), has need based process implementation to support con
 
 Depending on the size of project, processes get complex. DKT has experience to work with large projects and detailed processes. For most of the small projects, following are the commonly followed steps:
 
-*  Proposal - Scope of work - Commercials
+* Proposal - Scope of work - Commercials
 * Requirements - Detailing, Wireframes, Data Structuring, release scoping
 * Design / Implementation &amp; Change Management
-* Integration and System Testing
-* Iterative implementation for releases in 2-4 weeks cycle
-* Support for 1 previous release, free support for 1 month after project delivery
-* User Manual
+    * Integration and System Testing
+    * Iterative implementation for releases in 2-4 weeks cycle
+    * Support for 1 previous release, free support for 1 month after project delivery
+    * User Manual
+    * Customer Training
+* Configuration Management across all steps
