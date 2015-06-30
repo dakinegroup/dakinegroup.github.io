@@ -1,0 +1,18 @@
+{% include top.html %}
+
+<body class="wrap">
+  {% include header.html %}
+
+  <div class="row">
+  <div class="col col-md-4">
+  <img src="{{page.featureImage}}" alt="feature image" style="top:50px; position: relative;"/>
+  </div>
+  <div class="col col-md-8">
+  {{ content }}
+
+  {% include footer.html %}
+  </div>
+
+</body>
+</html>
+

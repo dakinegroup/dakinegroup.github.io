@@ -10,12 +10,14 @@ sass:
 collections:
   company:
     output: true
+  resources:
+    output: true
   #docs:
   #  output: true
   #self:
   #  output: true
-  #posts:
-  #  output: true
+  posts:
+    output: true
   #projects:
   #  output: true
   #contact:
