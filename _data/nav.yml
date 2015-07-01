@@ -42,15 +42,7 @@
      - subtitle: "Values"
        subhref: "/company/whyus/values.html"
        
-- title: "Blogs"
-  subcategories:
-     - subtitle: "Software"
-       subhref: "/_posts/software"
-     - subtitle: "Embedded"
-       subhref: "/_posts/embedded"
-     - subtitle: "Leadership"
-       subhref: "/_posts/leadership"
-- title: "Resources"
+- title: "Articles"
   subcategories:
      - subtitle: "Excel Macros"
        subhref: "/categories/excelmacros"
