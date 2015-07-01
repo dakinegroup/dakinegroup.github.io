@@ -26,7 +26,14 @@ Interrupt by it's definition means, a regular work whatever it may be is interru
 Interrupt must start by disabling global interrupt flag and end by enabling. Compiler takes care of saving the last instruction address, register values and retrieving them upon return.
 
 All variables that ISR use need to be protected using cli() and sei() commands, to avoid conflicts in reading / writing. These variables are the way of sharing information between ISR and regular program flow.
-
+```
+```
 #Analysing and Breaking up tasks
 #Approach to building final code
+
+#Other useful articles
+
+* Tool Chain for ATmega328p
+* Using GIT to manage source
+* Tools for PCB Designing
 

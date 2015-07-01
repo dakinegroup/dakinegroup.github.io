@@ -9,7 +9,7 @@ title: da Kine Technologies Pvt. Ltd. - Contact Us
 <div class="row">
 <div class="col col-md-2">email: </div>
 <div class="col col-md-4">
-<a href="mailto:vineet@dakinegroup.com">vineet@dakinegroup.com</a>
+<a href="mailto:vineet@dakinegroup.com">info@dakinegroup.com</a>
 </div>
 <br/>
 <div class="col col-md-2">mobile: </div>

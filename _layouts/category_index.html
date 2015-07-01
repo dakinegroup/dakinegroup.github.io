@@ -6,7 +6,7 @@ layout: default
 <h1 class="category">{{ page.title }}</h1>
 <div class='rss-feeds'><a href='./atom.xml'><i class="icon-large icon-rss"></i></a></div>
 </div>
-<ul class="posts">
+<div class="posts">
 {% for post in site.categories[page.category] %}
     <div class="row">
         <div class="col-md-2" style="margin-top:11px;text-align: right;" >{{ post.date | date_to_html_string }}</div>
@@ -15,6 +15,6 @@ layout: default
         <div class="categories" style="text-align:left;">Filed under {{ post.categories | category_links }}</div>
         </div>
     </div>
-    
+    <hr/>
 {% endfor %}
-</ul>
+</div>
