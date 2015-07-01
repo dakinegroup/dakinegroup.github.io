@@ -1,0 +1,458 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="dakinegroup.com" name="application-name">
+<meta content="Vineet Maheshwari" name="author">
+<meta content="A Website of da Kine Technologies Pvt. Ltd. (Gurgaon, India)" name="description">
+<meta content="tech,configuration,angular,php,codeigniter,android,jekyll,nodejs,javascript,html5,excel vba" name="keywords">
+<meta content="Jekyll 2.0.0" name="generator">
+  <title>Creating inexpensive timesheet solution</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bootstrap-glyphicons/css/bootstrap.icon-large.min.css">
+  <link rel="stylesheet" href="/Font-Awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,100,700,300italic,100italic,900italic' rel='stylesheet' type='text/css'>
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+</head>
+
+
+
+<body class="wrap">
+  <nav class="navbar navbar-fixed-top navbar-default">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="i  con-bar"></span>
+</button>
+ 
+<a class="navbar-brand" href="/index.html">da Kine Technologies Pvt. Ltd.</a>
+<div style=" display: inline-block;
+    font-style: italic;
+    margin-left: -79px;
+    margin-top: 39px;">Simplify.Value.Reuse</div>
+</div>
+ 
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+<ul class="nav navbar-nav navbar-right">
+ 
+
+ 
+<!-- check to see if the data file has a submenu, and if so display it -->
+
+ 
+<!-- display the top level navigation for items that don’t have a submenu -->
+<li>
+<a href="/">Home</a>
+
+</li>
+
+ 
+<!-- check to see if the data file has a submenu, and if so display it -->
+
+<li class="dropdown">
+<a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Who are we?<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+
+<li><a href="/company/team/index.html">Introduction</a></li>
+
+<li><a href="/company/team/founder.html">Founder</a></li>
+
+<li><a href="/company/skills/index.html">Skills</a></li>
+
+</ul>
+
+</li>
+
+ 
+<!-- check to see if the data file has a submenu, and if so display it -->
+
+<li class="dropdown">
+<a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">What We do..<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+
+<li><a href="/company/services/index.html">Services</a></li>
+
+<li><a href="/company/skills/index.html">Skills</a></li>
+
+<li><a href="/company/reusables/index.html">Resuse</a></li>
+
+<li><a href="/company/opensource/index.html">Open Source</a></li>
+
+</ul>
+
+</li>
+
+ 
+<!-- check to see if the data file has a submenu, and if so display it -->
+
+<li class="dropdown">
+<a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Way we do<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+
+<li><a href="/company/process/index.html">Processes</a></li>
+
+<li><a href="/company/process/proposal.html">Proposal</a></li>
+
+<li><a href="/company/process/requirements.html">Requirements</a></li>
+
+<li><a href="/company/process/implementation.html">Implementation</a></li>
+
+<li><a href="/company/process/configmanagement.html">Configuration Management</a></li>
+
+<li><a href="/company/process/support.html">Support</a></li>
+
+</ul>
+
+</li>
+
+ 
+<!-- check to see if the data file has a submenu, and if so display it -->
+
+<li class="dropdown">
+<a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Why Us<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+
+<li><a href="/company/whyus/index.html">Why Us</a></li>
+
+<li><a href="/company/whyus/mission.html">Mission</a></li>
+
+<li><a href="/company/whyus/values.html">Values</a></li>
+
+</ul>
+
+</li>
+
+ 
+<!-- check to see if the data file has a submenu, and if so display it -->
+
+<li class="dropdown">
+<a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Blogs<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+
+<li><a href="/_posts/software">Software</a></li>
+
+<li><a href="/_posts/embedded">Embedded</a></li>
+
+<li><a href="/_posts/leadership">Leadership</a></li>
+
+</ul>
+
+</li>
+
+ 
+<!-- check to see if the data file has a submenu, and if so display it -->
+
+<li class="dropdown">
+<a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Resources<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+
+<li><a href="/categories/excelmacros">Excel Macros</a></li>
+
+<li><a href="/categories/embeddedandroid">Mobile Apps - JS</a></li>
+
+<li><a href="/categories/mobileappsjavac">Mobile Apps - Java/Objective-C</a></li>
+
+<li><a href="/categories/portalcomponents">Portal Components</a></li>
+
+<li><a href="/categories/atmega328p">ATmega328p</a></li>
+
+<li><a href="/categories/embeddedandroid">Embedded Android</a></li>
+
+</ul>
+
+</li>
+
+ 
+<!-- check to see if the data file has a submenu, and if so display it -->
+
+ 
+<!-- display the top level navigation for items that don’t have a submenu -->
+<li>
+<a href="/company/contactus/index.html">Contact Us</a>
+
+</li>
+
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container -->
+</nav> 
+<div class='container' style="padding-bottom: 20px;">
+
+
+  <section class="post">
+<article>
+<h1>Creating inexpensive timesheet solution</h1>
+<div style="margin-bottom: 10px;">
+<div>Vineet Maheshwari, 1 July 2015, Gurgaon</div>
+<div><b>Categories:</b> excelmacros</div><div>
+
+<b>Tags:</b> 
+
+<a href="/tag/VBA">VBA</a> 
+<a href="/tag/Excel">Excel</a> 
+<a href="/tag/Management-Tools">Management-Tools</a> </div>
+</div>
+<h1 id="overview-of-solution">Overview of solution</h1>
+<p>Using VBA in excel, one can do almost everything in automated fashion, saving great amount of time. This is based on the fact that managers today already do everything on excel, though it is all manual.</p>
+
+<p>This solution, considers, independent excel sheets maintained by individuals to fill timesheets. A coordinator, who pulls data from these individual sheets and populates central database.</p>
+
+<h1 id="globals-and-initialization">Globals and Initialization</h1>
+
+<pre>
+Globals
+Global shtActiveTimesheet As Worksheet
+Global wbkActiveTS As Workbook
+Global wbkTI As Workbook
+Global shtTIDb As Worksheet
+Global shtTICfg As Worksheet
+
+'initialization
+Sub initTsImport()
+Dim shtCfg As Worksheet
+
+Set wbkTI = ActiveWorkbook
+Set shtTIDb = ActiveWorkbook.Worksheets("db")
+Set shtTICfg = wbkTI.Worksheets("cfg")
+End Sub
+</pre>
+
+<h1 id="configuration">Configuration</h1>
+<p>This sheet is meant to maintain variables that user can chose to change without going into VBA code.</p>
+
+<p><img src="/images/ts_cfg.jpg" alt="Configuration Sheet" /></p>
+
+<h1 id="support-functions">Support Functions</h1>
+<pre>
+'get name of the timesheet file for an employee and for a particular week
+Function getTimesheetName(empid As Integer, weekOffset As Integer) As String
+' 0 for this week
+' -1 for last week
+' -2 for last to last week
+
+ d = getMonday(weekOffset)
+ getTimesheetName = Format(empid, "0###")
+ getTimesheetName = getTimesheetName &amp; "_" &amp; Format(Year(d))
+ getTimesheetName = getTimesheetName &amp; "_" &amp; Format(Month(d), "0#")
+ getTimesheetName = getTimesheetName &amp; "_" &amp; Format(Day(d), "0#")
+ getTimesheetName = getTimesheetName &amp; "_timesheet.xlsx"
+End Function
+</pre>
+
+<pre>
+'get date for the monday of this week, of last week, or last to last week
+' can be further enhanced to seek any week backward or in future
+Function getMonday(offset As Integer) As Date
+If (weekOffset = 0) Then
+    getMonday = Now() - Weekday(Now(), 3)
+ElseIf (weekOffset = -1) Then
+    getMonday = Now() - Weekday(Now(), 3) - 7
+ElseIf (weekOffset = -2) Then
+    getMonday = Now() - Weekday(Now(), 3) - 14
+End If
+getMonday = DateValue(Format(getMonday, "dd/mm/yyyy"))
+End Function
+</pre>
+
+<h1 id="individual-timesheets-it">Individual Timesheets (IT)</h1>
+<p>Individual timesheets need to have following information</p>
+
+<ul>
+  <li>Starting date</li>
+  <li>Days of the week</li>
+  <li>Employee Id</li>
+  <li>Project Id</li>
+  <li>Task (optional - rather leave it, why complicate)</li>
+  <li>Hours Spent</li>
+</ul>
+
+<p>File name itself shall suggest the date of the timesheet and also the employee id. Latter value is maintained inside the sheet, though it does not change.</p>
+
+<p>There is no automation required within this sheet. It just provides information to be collated by someone else.</p>
+
+<p><img src="/images/ts.jpg" alt="individual timesheet" /></p>
+
+<h1 id="integrated-timesheet">Integrated Timesheet</h1>
+<p>Integrated timesheet (ITS) has two sheets to work through. </p>
+
+<ul>
+  <li>Database of each entries available through individual timesheets - (db)</li>
+  <li>Tracking sheet to capture who has submitted, how many hours, in total (required to do followup for those who have not filled it yet) - (timesheet_tracking)</li>
+</ul>
+
+<p><img src="/images/ts_db.jpg" alt="integrated timesheet db" /></p>
+
+<h2 id="macro-and-its-explanation">Macro and it’s explanation</h2>
+<p>Iterate through every cell of individual and each date, if the cells in tracking sheet is already updated, than do not fetch / update value in “DB”</p>
+
+<p>Look through configuration (cfg) sheet, for each team member timesheet path and open timesheet path for current week. Get date of monday for current week. If available, iterate through each cell of this timesheet and create an entry into db for non-zero and non-blank cells. Also add to the timesheet_tracking sheet.</p>
+
+<p>There is an option to extend it’s functionality to fetch information from last-n weeks.</p>
+
+<pre>
+Sub importTimesheet(ts As Worksheet, emp As Integer, dt As Date)
+Dim addr As Range, addr2 As Range, li As Range, ndt As Date, hrs As Double
+Set li = shtTIDb.Range("A1:A10000").Find("Last Import")
+Set addr = shtTIDb.Range(shtTIDb.Cells(li.Row() + 1, 1), shtTIDb.Cells(li.Row() + 40000, 1)).Find("")
+Set addr2 = ts.Range("A1:A10000").Find("#")
+rowIdx = addr.Row()
+If (Not addr Is Nothing) Then
+ For Each prj In ts.Range(ts.Cells(addr2.offset(1, 3).Row(), 3), ts.Cells(addr2.offset(1, 3).Row() + 10000, 3))
+  If (prj = "") Then Exit For
+  tp = prj.offset(0, -1).Value
+  For Each dy In ts.Range(ts.Cells(prj.Row(), 4), ts.Cells(prj.Row(), 10))
+    If (dy.Value &lt;&gt; 0 And dy.Value &lt;&gt; "") Then
+        ndt = DateValue(Format(dt, "dd/mm/yyyy")) + dy.Column() - 4
+        hrs = dy.Value
+        shtTIDb.Cells(rowIdx, 1).Value = ndt
+        shtTIDb.Cells(rowIdx, 2).Value = emp
+        shtTIDb.Cells(rowIdx, 3).Value = prj.Value
+        shtTIDb.Cells(rowIdx, 4).Value = hrs
+        ab = updateHoursToTracking(ndt, emp, hrs)
+        rowIdx = rowIdx + 1
+    End If
+  Next dy
+ Next prj
+End If
+li.offset(0, 1).Value = Now()
+End Sub
+</pre>
+
+<p>Here is the main code that triggers all. This is the macro which is assigned to the button.</p>
+<pre>
+Dim dt As Date, emp As Integer
+Dim addr As Range, wbkTs As Workbook, shtTs As Worksheet
+
+initTsImport
+
+Set addr = shtTICfg.Range("C3:C1000").Find("Employee Timesheets")
+
+For Each ts In shtTICfg.Range(shtTICfg.Cells(addr.Row() + 1, 3), shtTICfg.Cells(addr.Row() + 1000, 3))
+ If (ts = "") Then Exit For
+ shtName = getTimesheetName(ts.Value, 0)
+ dt = getMonday(0)
+ On Error GoTo error_opening
+    If (Not isTimesheetFilled(ts.Value, dt)) Then
+     If Dir(ts.offset(0, 2) &amp; shtName) &lt;&gt; "" Then
+        Set wbkTs = Workbooks.Open(ts.offset(0, 2) &amp; shtName, True)
+        Set shtTs = wbkTs.Worksheets("timesheet")
+        importTimesheet ts:=shtTs, emp:=ts.Value, dt:=dt
+        wbkTs.Close
+      Else
+        MsgBox ("File not found: " &amp; ts.offset(0, 2) &amp; shtName)
+      End If
+    End If
+    
+    GoTo continue
+error_opening:
+    MsgBox ("Error in opening file" &amp; Err.Number &amp; " " &amp; Err.Description)
+continue:
+
+Next ts
+
+End Sub
+</pre>
+<p>#Timesheet Tracking(TS)
+TS helps to ensure timely submission of timesheets and also have birds eye-view on who is working and how much.
+A blank cells implies that the timesheet for that particular cell is not yet filled up.</p>
+
+<p><img src="/images/ts_tracking.jpg" alt="timesheet tracking" /></p>
+
+<pre>
+'check if the timesheet for the week is filled
+Function isTimesheetFilled(emp As Integer, dt As Date) As Boolean
+Dim shtTracking As Worksheet, addr As Range, addr2 As Range
+Set shtTracking = wbkTI.Worksheets("timesheet_tracking")
+Set addr = shtTracking.Range("A2:A1000").Find(dt)
+Set addr2 = shtTracking.Range("A2:A1000").Find("Date")
+Set addr2 = shtTracking.Range(shtTracking.Cells(addr2.Row(), 2), shtTracking.Cells(addr2.Row(), 100)).Find(emp)
+isTimesheetFilled = False
+If ((Not addr2 Is Nothing) And (Not addr Is Nothing)) Then
+ If (shtTracking.Cells(addr.Row(), addr2.Column()).Value &lt;&gt; "") Then
+   isTimesheetFilled = True
+ End If
+End If
+End Function
+
+</pre>
+
+<pre>
+Function updateHoursToTracking(dt As Date, emp As Integer, hrs As Double) As Double
+Dim shtTracking As Worksheet, addr As Range, addr2 As Range
+Set shtTracking = wbkTI.Worksheets("timesheet_tracking")
+Set addr = shtTracking.Range("A2:A1000").Find(dt)
+Set addr2 = shtTracking.Range("A2:A1000").Find("Date")
+Set addr2 = shtTracking.Range(shtTracking.Cells(addr2.Row(), 2), shtTracking.Cells(addr2.Row(), 100)).Find(emp)
+If ((Not addr2 Is Nothing) And (Not addr Is Nothing)) Then
+    If (shtTracking.Cells(addr.Row(), addr2.Column()).Formula = "") Then
+    shtTracking.Cells(addr.Row(), addr2.Column()).Formula = "=" &amp; hrs
+    Else
+    shtTracking.Cells(addr.Row(), addr2.Column()).Formula = shtTracking.Cells(addr.Row(), addr2.Column()).Formula &amp; "+" &amp; hrs
+    End If
+End If
+End Function
+</pre>
+
+<h1 id="applications--extensions">Applications / Extensions</h1>
+<p>This is a small implementation of what goes in the mind of manager who is concerned about recording time spent on different project / activities by team members. For individuals, it is easy to fill and enables them to maintain records which they can always refer back.</p>
+
+<p>Having done this, one can easily calculate hours spent on every project, link it with salaries of individuals and arrive at costs incurred on project. Salaries being the bigges component of an organization, gets accounted for appropriately, converting indirect costs into direct costs, without the need of SAP.</p>
+
+<p><a href="mailto:info@dakinegroup.com">Write to us for source</a></p>
+
+<div style="width:100%; height: 40px; background-color: lightgrey;"></div>
+</article>
+</section>
+
+  </div> <!-- for conatiner started in the top-->
+<footer class="footer">
+<div id='sitemap' class='row'>
+    <div class='column col-md-4'>
+         <h4>Recent Blogs</h4>
+         <ul>
+           <li> Blah..</li>
+           <li> Blah..</li>
+           <li> Blah..</li>
+         </ul>
+    </div>
+    <div class=' column col-md-4'>
+      <h4>Most Visited Pages</h4>
+      <ul>
+        <li> Credentials - Career</li>
+        <li> Projects</li>
+      </ul>
+    </div>
+    <div class='column col-md-4'>
+      <h4>Contat Us</h4>
+      <div class="row">
+      </div>
+    </div>
+</div>
+  <div id='footer-disclaimer' class='row'>
+    <center>This site is currently under development</center>
+    <center>&copy; 2015. All rights reserved. &nbsp; | &nbsp; 
+    <a href="">Terms &amp; Conditions</a> &nbsp; | &nbsp;
+    <a href="">Disclaimer</a>  &nbsp; | &nbsp;
+    site: <a href='www.vineetmaheshwari.com'> www.vineetmaheshwari.com</a>
+    </center>
+  </div>
+</footer>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
