@@ -9,7 +9,7 @@
 <meta content="A Website of da Kine Technologies Pvt. Ltd. (Gurgaon, India)" name="description">
 <meta content="tech,configuration,angular,php,codeigniter,android,jekyll,nodejs,javascript,html5,excel vba" name="keywords">
 <meta content="Jekyll 2.0.0" name="generator">
-  <title>da Kine Technologies Pvt. Ltd. - Services</title>
+  <title>Scheduler for ATMega328p</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -174,22 +174,42 @@
 <div class='container' style="padding-bottom: 20px;">
 
 
-  <h1 id="configuration-management--delivery--control">Configuration Management / Delivery / Control</h1>
+  <section class="post">
+<article>
+<h1>Scheduler for ATMega328p</h1>
+<div style="margin-bottom: 10px;">
+<div>Vineet Maheshwari, , Gurgaon</div>
+<div><b>Categories:</b> atmega328p</div><div>
 
-<p>GIT is used as an underlying configuration management tool for all documentation and coding. It helps to manage version and track deliveries, retrieve them, reproduce issues.</p>
+<b>Tags:</b> 
 
-<p>JIRA is used for recording defects and taking it through quick and useful closure cycle with required documentation on change committed.</p>
+<a href="/tag/microcontrollers">microcontrollers</a> 
+<a href="/tag/embedded">embedded</a> 
+<a href="/tag/programming">programming</a> 
+<a href="/tag/scheduler">scheduler</a> </div>
+</div>
+<h1 id="dealing-with-complex-situations-with-timing-constraints">Dealing with complex situations with timing constraints</h1>
+<p>Lot of time goes into making things work at hardware level and the enthusiam is also limited to see basic peripherals are working as per expectations. But when it comes to delivering value for end customer, a complex solution would need to be worked out matching to the complex (which may appear simple) requirement of customers.</p>
 
-<p>Documentation depends on preferred customer medium. DKT can do it in following tools:
-a. Microsoft Office
-b. LibreOffice
-c. Latex
-d. Mark-Down + HTML and basic CSS/JS</p>
+<h1 id="when-is-it-required">When is it required?</h1>
+<p>In many situations, there would be more than one task which needs to be carried out by mini-controller and most of them are constrained by timing requirements. Peripherals are an interface to external world and by nature they are slower and unpredictable. If processor works in turn with each of them, it may miss out on timing as well as some inputs could be over-written.</p>
 
-<p>Last one being the most preferred one considering reusability, traceability of information.</p>
+<p>It is at this time, interrupts help to capture everything that comes in, a design to breakup huge time-consuming tasks and than scheduler to carry out these pieces in quick succession.</p>
 
-<p>Due to stringent, routine configuration management elements, it is always easy to transfer of information to other vendor, if at all that happens.</p>
+<h1 id="understanding-the-interrupts">Understanding the Interrupts</h1>
+<p>Interrupt by it’s definition means, a regular work whatever it may be is interrupted to carry out a higher priority task. At Hardware, this enables to catch events in real-time and store them for later processing. It even can be processed, if it does not take too much time. Program blocks that service these interrupts (ISRs) should take as little clock cycles as possible. Therefore it is always preferred to write them in assembly language.</p>
 
+<p>Interrupt must start by disabling global interrupt flag and end by enabling. Compiler takes care of saving the last instruction address, register values and retrieving them upon return.</p>
+
+<p>All variables that ISR use need to be protected using cli() and sei() commands, to avoid conflicts in reading / writing. These variables are the way of sharing information between ISR and regular program flow.</p>
+
+<h1 id="analysing-and-breaking-up-tasks">Analysing and Breaking up tasks</h1>
+<p>#Approach to building final code</p>
+
+
+<div style="width:100%; height: 40px; background-color: lightgrey;"></div>
+</article>
+</section>
 
   </div> <!-- for conatiner started in the top-->
 <footer class="footer">
