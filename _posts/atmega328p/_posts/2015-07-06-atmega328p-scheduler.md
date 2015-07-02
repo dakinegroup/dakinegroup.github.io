@@ -44,7 +44,7 @@ ISR(TIMER1_OVF_vect)
   }
   // keep this compiler conditional
   #if USE_DEBUG_LED
-  if((timestamp[0] & 0x003F) == 0) { 
+  if((timestamp[0] &amp; 0x003F) == 0) { 
     // check for lower 6 bits to become zero to
     //  switch on/off debugging LED which gives a time indication
     if(debug_led == 0) {
@@ -52,7 +52,7 @@ ISR(TIMER1_OVF_vect)
       PORTB = PORTB | _BV(1);
     } else {
       debug_led = 0;
-      PORTB = PORTB & ~(_BV(1));
+      PORTB = PORTB &amp; ~(_BV(1));
     }
   }
   #endif
