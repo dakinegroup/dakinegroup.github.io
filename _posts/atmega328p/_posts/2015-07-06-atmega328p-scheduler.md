@@ -103,7 +103,7 @@ Lets say one has to write to a LCD display. Steps to write a string here would b
 * write a character second nibble
 * read again
 
-one can schedule writing 4 characters at a time, with a interval of 100ms inside state machine, a cycle does not complete till all are written out, therefore as soon as it starts, it saves all the global/interrupt owned registers/values for use across state machine cycle. This is the simplest break up. It needs to be abstrated with a function that further drives a state machine. This state machine is repeated invoked in loop, for finishing of scheduled tasks. These state machines are like server performing tasks in background.
+one can schedule writing 4 characters at a time, with an interval of 100ms inside state machine, a cycle does not complete till all are written out, therefore as soon as it starts, it saves all the global/interrupt owned registers/values for use across state machine cycle. This is the simplest break up. It needs to be abstrated with a function that further drives a state machine. This state machine is repeated invoked in loop, for finishing of scheduled tasks. These state machines are like server performing tasks in background.
 
 Maintain functions as function pointers in an array with mapping to events. This can be further extended to capture variables values and associated next state. A typical function pointer which takes integer as an argument and returns integer would be:
 
@@ -129,7 +129,7 @@ Last in the process is integration of required components and fixing integration
 
 #Other useful articles
 
-* [Tool Chain for ATmega328p]()
+* [Tool Chain for ATmega328p](/atmega328p/2015/07/08/atmega328p-tool-chain.html)
 * Using GIT to manage source
 * Tools for PCB Designing
 
