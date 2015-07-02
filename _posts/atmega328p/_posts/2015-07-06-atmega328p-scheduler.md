@@ -30,7 +30,7 @@ All variables that ISR use need to be protected using cli() and sei() commands, 
 
 An extract from the code for 16-bit timer interrupt:
 
-```C
+<pre>
 ISR(TIMER1_OVF_vect)
 {
   cli();
@@ -58,7 +58,7 @@ ISR(TIMER1_OVF_vect)
   #endif
   sei();
 }
-```
+</pre>
 
 #Analysing and Breaking up tasks
 #Approach to building final code
