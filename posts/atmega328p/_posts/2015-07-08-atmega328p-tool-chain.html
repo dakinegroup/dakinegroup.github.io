@@ -293,24 +293,27 @@ c. Maintain logs internally and dump them in chunks at intervals</p>
 <p>There are other concepts of variables, loops within makefile which make it more powerful.</p>
 
 <h1 id="objcopy">ObjCopy</h1>
-<p>here flash is being programmed using .text section of the code
-<code>
+<p>here flash is being programmed using .text section of the code</p>
+
+<p><code>
 avr-objcopy -j .text -j .data -O ihex test.elf test.hex
-</code>
-for EEPROM, note that different section is being referred here “.eeprom”
-<code>
+</code></p>
+
+<p>for EEPROM, note that different section is being referred here “.eeprom”</p>
+
+<p><code>
 avr-objcopy -j .eeprom --change-section-lma .eeprom=0 -O ihex test.elf test_e2prom.hex 
-</code>
-#Flash Programmer
-Write about USB-ASP programming. Mention about other options. What are the ways to do self-programming.</p>
+</code></p>
+
+<h1 id="flash-programmer">Flash Programmer</h1>
+<p>Write about USB-ASP programming. Mention about other options. What are the ways to do self-programming.</p>
 
 <p><strong>“avrdude”</strong> program helps to connect with processor using SPI port interface (MSIO, MOSI, SCK, RESET and VCC + GND). MSIO, MOSI and SCK pins aquire special role when RESET is pulled low. It needs to be supplied intel hex file, generated from compilation + linking + object conversion as given above.</p>
 
 <h1 id="libraries">Libraries</h1>
-<p>Libraries that are available from open source to be used.
-<strong>To be done</strong></p>
+<p>This section shall be kept udpated as new libraries are learnt. Currently standard libraries like stdlib are being used. Refer to other articles here to get reusable code patterns.</p>
 
-<p>For further details and understanding of related subjects, refer to <a href="http://www.atmel.com/webdoc/AVRLibcReferenceManual/overview_1overview_binutils.html">source</a></p>
+<p>For further details and understanding of related subjects, refer to <a href="http://www.atmel.com/webdoc/AVRLibcReferenceManual/overview_1overview_binutils.html">avr-gcc website</a></p>
 
 <div style="width:100%; height: 40px; background-color: lightgrey;"></div>
 </article>
