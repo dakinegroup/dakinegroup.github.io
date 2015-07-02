@@ -284,7 +284,7 @@ int i = 0;
   <li>read again</li>
 </ul>
 
-<p>one can schedule writing 4 characters at a time, with a interval of 100ms inside state machine, a cycle does not complete till all are written out, therefore as soon as it starts, it saves all the global/interrupt owned registers/values for use across state machine cycle. This is the simplest break up. It needs to be abstrated with a function that further drives a state machine. This state machine is repeated invoked in loop, for finishing of scheduled tasks. These state machines are like server performing tasks in background.</p>
+<p>one can schedule writing 4 characters at a time, with an interval of 100ms inside state machine, a cycle does not complete till all are written out, therefore as soon as it starts, it saves all the global/interrupt owned registers/values for use across state machine cycle. This is the simplest break up. It needs to be abstrated with a function that further drives a state machine. This state machine is repeated invoked in loop, for finishing of scheduled tasks. These state machines are like server performing tasks in background.</p>
 
 <p>Maintain functions as function pointers in an array with mapping to events. This can be further extended to capture variables values and associated next state. A typical function pointer which takes integer as an argument and returns integer would be:</p>
 
@@ -313,7 +313,7 @@ typedef int (* tTimedCallBack)(int);
 <h1 id="other-useful-articles">Other useful articles</h1>
 
 <ul>
-  <li><a href="">Tool Chain for ATmega328p</a></li>
+  <li><a href="/atmega328p/2015/07/08/atmega328p-tool-chain.html">Tool Chain for ATmega328p</a></li>
   <li>Using GIT to manage source</li>
   <li>Tools for PCB Designing</li>
 </ul>
