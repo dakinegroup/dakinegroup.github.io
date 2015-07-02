@@ -11,7 +11,7 @@ layout: default
     <div class="row">
         <div class="col-md-2" style="margin-top:11px;text-align: right;" >{{ post.date | date_to_html_string }}</div>
         <div class="col-md-10" style="border-left: solid 2px green;"> 
-        <h2  style="margin: 0;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h3  style="margin: 0;"><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <div class="categories" style="text-align:left;">Filed under {{ post.categories | category_links }}</div>
         </div>
     </div>
