@@ -10,6 +10,8 @@ tags:
  - microcontrollers
  - embedded
  - programming
+keywords:
+ - microcontrollers, IoT, atmega328p, avrgcc, tools, embedded, scripts
 ---
 
 #Toochain for ATmega328p
@@ -111,20 +113,23 @@ There are other concepts of variables, loops within makefile which make it more 
 
 #ObjCopy
 here flash is being programmed using .text section of the code
+
 ```
 avr-objcopy -j .text -j .data -O ihex test.elf test.hex
 ```
+
 for EEPROM, note that different section is being referred here ".eeprom"
+
 ```
 avr-objcopy -j .eeprom --change-section-lma .eeprom=0 -O ihex test.elf test_e2prom.hex 
 ```
+
 #Flash Programmer
 Write about USB-ASP programming. Mention about other options. What are the ways to do self-programming.
 
 **"avrdude"** program helps to connect with processor using SPI port interface (MSIO, MOSI, SCK, RESET and VCC + GND). MSIO, MOSI and SCK pins aquire special role when RESET is pulled low. It needs to be supplied intel hex file, generated from compilation + linking + object conversion as given above.
 
 #Libraries
-Libraries that are available from open source to be used.
-**To be done**
+This section shall be kept udpated as new libraries are learnt. Currently standard libraries like stdlib are being used. Refer to other articles here to get reusable code patterns.
 
-For further details and understanding of related subjects, refer to <a href="http://www.atmel.com/webdoc/AVRLibcReferenceManual/overview_1overview_binutils.html">source</a>
+For further details and understanding of related subjects, refer to <a href="http://www.atmel.com/webdoc/AVRLibcReferenceManual/overview_1overview_binutils.html">avr-gcc website</a>
